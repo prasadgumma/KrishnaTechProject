@@ -1,0 +1,53 @@
+{
+  "menu": [
+    {
+      "id": "3747",
+      "menuName": "Cables",
+      "linkName": "cable_1",
+      "parent": "Manohar Babu",
+      "path": "cable_123",
+      "icon": "Cables_icons",
+      "activityType": "Good",
+      "userFlag": "Indian",
+      "activityDescription": "Managing",
+      "order": "1",
+      "description": "Good Description",
+      "status": true,
+      "roles": [
+        "ACCOUNT USER",
+        "ACCOUNT OWNER",
+        "QUALITY ANALYST",
+        "SUPPORT DEV",
+        "SUPORT ADMIN"
+      ]
+    },
+    {
+      "id": "7c4e",
+      "menuName": "Modems",
+      "linkName": "modem_link",
+      "parent": "Jithender",
+      "path": "modem_path",
+      "icon": "modem_Icon",
+      "activityType": "Managing",
+      "userFlag": "Yes User Flag",
+      "activityDescription": "Actively Description",
+      "order": "2",
+      "description": "Good Desciption",
+      "status": false,
+      "roles": [
+        "ACCOUNTS",
+        "ACCOUNT USER",
+        "QUALITY ANALYST",
+        "SUPPORT DEV",
+        "SUPORT ADMIN",
+        "ADMIN",
+        "SUPPORT ADMIN",
+        "SUPER ADMIN",
+        "RESELLER",
+        "EMAIL VALIDATOR MASTER",
+        "ACCOUNT OWNER"
+      ],
+      "isEnabled": true
+    }
+  ]
+}

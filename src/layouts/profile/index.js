@@ -46,6 +46,10 @@ import homeDecor1 from "assets/images/home-decor-1.jpg";
 import homeDecor2 from "assets/images/home-decor-2.jpg";
 import homeDecor3 from "assets/images/home-decor-3.jpg";
 import homeDecor4 from "assets/images/home-decor-4.jpeg";
+import indiaBG from "assets/images/indiaBG.jpeg";
+import tamilnaduImage from "assets/images/tamilnaduImage.jpeg";
+import amaravathImage from "assets/images/amaravathImage.jpeg";
+import telanganaImage from "assets/images/telanganaImage.jpeg";
 import team1 from "assets/images/team-1.jpg";
 import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
@@ -68,9 +72,9 @@ function Overview() {
                 title="profile information"
                 description="Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality)."
                 info={{
-                  fullName: "Alec M. Thompson",
-                  mobile: "(44) 123 1234 123",
-                  email: "alecthompson@mail.com",
+                  fullName: "Prasad Gumma",
+                  mobile: "7997514823",
+                  email: "gummaprasad7@gmail.com",
                   location: "USA",
                 }}
                 social={[
@@ -114,13 +118,13 @@ function Overview() {
           <Grid container spacing={6}>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
-                image={homeDecor1}
+                image={indiaBG}
                 label="project #2"
-                title="modern"
+                title="India"
                 description="As Uber works through a huge amount of internal management turmoil."
                 action={{
                   type: "internal",
-                  route: "/pages/profile/profile-overview",
+                  route: "/pages/profile/profile-overview-india",
                   color: "info",
                   label: "view project",
                 }}
@@ -134,9 +138,9 @@ function Overview() {
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
-                image={homeDecor2}
+                image={amaravathImage}
                 label="project #1"
-                title="scandinavian"
+                title="Andhra Pradesh"
                 description="Music is something that everyone has their own specific opinion about."
                 action={{
                   type: "internal",
@@ -154,9 +158,9 @@ function Overview() {
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
-                image={homeDecor3}
+                image={telanganaImage}
                 label="project #3"
-                title="minimalist"
+                title="Telangana"
                 description="Different people have different taste, and various types of music."
                 action={{
                   type: "internal",
@@ -174,9 +178,9 @@ function Overview() {
             </Grid>
             <Grid item xs={12} md={6} xl={3}>
               <DefaultProjectCard
-                image={homeDecor4}
+                image={tamilnaduImage}
                 label="project #4"
-                title="gothic"
+                title="Tamilnadu"
                 description="Why would anyone pick blue over pink? Pink is obviously a better color."
                 action={{
                   type: "internal",

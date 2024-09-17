@@ -71,7 +71,7 @@ export default [
     description: "Hi! I need more information..",
     action: {
       type: "internal",
-      route: "/pages/profile/profile-overview",
+      route: "IndiaProject",
       color: "info",
       label: "reply",
     },

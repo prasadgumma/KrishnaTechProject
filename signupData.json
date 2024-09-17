@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "id": "6f6f",
+      "userName": "Abhishek",
+      "email": "abhishek.klc7@gmail.com",
+      "mobile": "9559335879",
+      "password": "abhishek@A7",
+      "confirmPassword": "abhishek@A7",
+      "status": true,
+      "modules": [
+        "LEAD BOX",
+        "CUSTOM FIELDS",
+        "TC",
+        "CONTENT MANAGER",
+        "SHORT URL",
+        "SMART VIEWS",
+        "SALED DASHBOARD",
+        "SALES",
+        "EMAIL VERIFY"
+      ],
+      "description": "Wonderful"
+    },
+    {
+      "id": "aca5",
+      "userName": "Naresh Manne",
+      "email": "naresh776@gmail.com",
+      "mobile": "7418529632",
+      "password": "naresh@N7",
+      "confirmPassword": "naresh@N7",
+      "status": true,
+      "modules": [
+        "DEFAULT",
+        "BETA",
+        "PG",
+        "CONTENT MANAGER",
+        "TC",
+        "BITRIX",
+        "LEAD BOX",
+        "CUSTOM FIELDS",
+        "MISSED CALL"
+      ],
+      "description": "Good"
+    },
+    {
+      "id": "4994",
+      "userName": "Rajesh Kanna",
+      "email": "rajesh@gmail.com",
+      "mobile": "8529631478",
+      "password": "rajesh@R7",
+      "confirmPassword": "rajesh@R7",
+      "status": true,
+      "modules": [
+        "SHORT URL",
+        "PG",
+        "MISSED CALL",
+        "CONTENT MANAGER"
+      ],
+      "description": "Good"
+    },
+    {
+      "id": "62d8",
+      "userName": "Prasad Gumma",
+      "email": "prasadGumma7@gmail.com",
+      "mobile": "9955685235",
+      "password": "kishi@G7",
+      "confirmPassword": "kishi@G7",
+      "status": true,
+      "modules": [
+        "PG",
+        "MISSED CALL",
+        "BITRIX",
+        "SMART VIEWS",
+        "SALES",
+        "EMAIL VERIFY",
+        "CALL CONFERENCE",
+        "LEAD BOX",
+        "SHORT URL"
+      ]
+    },
+    {
+      "id": "c753",
+      "userName": "Mahathi",
+      "email": "mahathi77@gmail.com",
+      "mobile": "9347381349",
+      "password": "prasad@G7",
+      "confirmPassword": "prasad@G7",
+      "status": true,
+      "modules": [
+        "BITRIX",
+        "TC",
+        "CONTENT MANAGER",
+        "MISSED CALL",
+        "PG",
+        "SHORT URL",
+        "BETA",
+        "DEFAULT",
+        "SMART VIEWS",
+        "SALED DASHBOARD",
+        "SALES",
+        "EMAIL VERIFY"
+      ]
+    },
+    {
+      "id": "5712",
+      "userName": "Gumma Prasad",
+      "email": "gummaprasad7@gmail.com",
+      "mobile": "07997514823",
+      "password": "kishi@G7",
+      "confirmPassword": "kishi@G77",
+      "status": true,
+      "modules": [
+        "DEFAULT",
+        "BETA",
+        "SHORT URL",
+        "PG",
+        "MISSED CALL"
+      ],
+      "description": "Good"
+    },
+    {
+      "id": "0ca4",
+      "userName": "Vamshi",
+      "email": "vamsi@gmail.com",
+      "mobile": "7894561235",
+      "password": "vamsi@Y7",
+      "confirmPassword": "vamsi@Y7",
+      "status": true,
+      "modules": [
+        "DEFAULT",
+        "BETA",
+        "SHORT URL",
+        "MISSED CALL",
+        "PG",
+        "CONTENT MANAGER",
+        "TC",
+        "BITRIX",
+        "LEAD BOX",
+        "CUSTOM FIELDS",
+        "SALED DASHBOARD",
+        "SMART VIEWS"
+      ],
+      "description": "gfufyuffk"
+    },
+    {
+      "id": "8d89",
+      "userName": "Ravi Kumar",
+      "email": "ravi234@gmail.com",
+      "mobile": "8547961236",
+      "password": "ravi@R77",
+      "confirmPassword": "ravi@R77",
+      "status": true,
+      "modules": [
+        "PG",
+        "BITRIX",
+        "SMART VIEWS",
+        "SALES",
+        "EMAIL VERIFY",
+        "CALL CONFERENCE",
+        "SALED DASHBOARD",
+        "CONTENT MANAGER",
+        "BETA"
+      ],
+      "description": "Good"
+    },
+    {
+      "id": "ed7b",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "2d18",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "9307",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "b83d",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "37c8",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "5518",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "0e16",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "28f2",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "e8e1",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "774c",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "4eb3",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "dfb4",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "a12a",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "0f68",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "f5ff",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "0074",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "a68b",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "a5e7",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "ebc8",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kioshi@G7"
+    },
+    {
+      "id": "72cb",
+      "email": "gummaprasad7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "9fae",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "1c5e",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "51ad",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "84be",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "5daa",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "e773",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "3378",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "4d3e",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    },
+    {
+      "id": "f23d",
+      "email": "mahathi77@gmail.com",
+      "password": "prasad@G7"
+    },
+    {
+      "id": "2312",
+      "email": "prasadGumma7@gmail.com",
+      "password": "kishi@G7"
+    }
+  ]
+}

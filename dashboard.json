@@ -1,0 +1,138 @@
+{
+    "routes":[
+        {
+          "type": "collapse",
+          "name": "Dashboard",
+          "key": "dashboard",
+          "route": "/dashboard",
+          "component": "Dashboard"
+        },
+        {
+          "type": "collapse",
+          "name": "User Table",
+          "key": "userstables",
+          
+          "route": "/users-tables",
+          "component": "UsersTable" 
+        },
+        {
+          "type": "collapse",
+          "name": "Numbers Table",
+          "key": "numbersTables",
+          "route": "/numbers-tables",
+          "component": "NumbersTable" 
+        },
+        {
+          "type": "collapse",
+          "name": "Menu Table",
+          "key": "menuTables",
+          "route": "/menu-tables",
+          "component": "MenuTable"
+        },
+        {
+          "type": "collapse",
+          "name": "Billing",
+          "key": "billing",
+          "route": "/billing",
+          "component": "Billing"
+        },
+        {
+          "type": "collapse",
+          "name": "RTL",
+          "key": "rtl",
+          "route": "/rtl",
+          "component": "RTL"
+        },
+        {
+          "type": "collapse",
+          "name": "Notifications",
+          "key": "notifications",
+          "route": "/notifications",
+          "component": "Notifications"
+        },
+        {
+          "type": "collapse",
+          "name": "Profile",
+          "key": "profile",
+          "route": "/profile",
+          "component": "Profile"
+        },
+        {
+          "type": "collapse",
+          "name": "Sign In",
+          "key": "sign-in",
+          "route": "/authentication/sign-in",
+          "component":"SignIn"
+        },
+        {
+          "type": "collapse",
+          "name": "Sign Up",
+          "key": "sign-up",
+          "route": "/authentication/sign-up",
+          "component": "SignUp" 
+        },
+        {
+          "name": "Add User",
+          "route": "add/user",
+          "component": "AddUser",
+          "key": "add-user"
+        },
+        {
+          "name": "Update User",
+          "route": "edit/user/:id",
+          "component": "EditUser",
+          "key": "edit-user"
+        },
+        {
+          "name": "Edit Modules",
+          "route": "edit/modules/:userId",
+          "component": "EditModules",
+          "key": "edit-modules"
+        },
+        {
+          "name": "Add Number",
+          "route": "add/number",
+          "component": "AddNumber",
+          "key": "add-number"
+        },
+        {
+          "name": "Edit Number",
+          "route": "edit/number/:id",
+          "component": "EditNumber",
+          "key": "edit-number"
+        },
+        {
+          "name": "Add Menu",
+          "route": "add/menu",
+          "component": "AddMenu",
+          "key": "add-menu"
+        },
+        {
+          "name": "Edit Role",
+          "route": "edit/roles/:menuId",
+          "component": "EditRole",
+          "key": "edit-roles"
+        },
+        {
+            "name": "Edit Menu",
+            "route": "edit/menu/:id",
+            "component": "EditMenu",
+            "key": "edit-menu"
+          },
+          {
+            "type": "collapse",
+            "name": "Tables",
+            "route": "/tables",
+            "component": "Tables",
+            "key": "tables"
+          },
+          {
+            "route": "/dashboard",
+            "component": "Dashboard",
+            "key": "dashboard",
+            "protected": true
+          }
+          
+      ]
+      
+}
