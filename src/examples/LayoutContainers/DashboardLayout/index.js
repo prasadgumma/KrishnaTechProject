@@ -26,6 +26,8 @@ import MDBox from "components/MDBox";
 
 // Material Dashboard 2 React context
 import { useMaterialUIController, setLayout } from "context";
+import { Box, Typography } from "@mui/material";
+import Footer from "examples/Footer";
 
 function DashboardLayout({ children }) {
   const [controller, dispatch] = useMaterialUIController();
@@ -37,21 +39,39 @@ function DashboardLayout({ children }) {
   }, [pathname]);
 
   return (
-    <MDBox
-      sx={({ breakpoints, transitions, functions: { pxToRem } }) => ({
-        p: 3,
-        position: "relative",
+    <MDBox>
+      <MDBox
+        sx={({ breakpoints, transitions, functions: { pxToRem } }) => ({
+          p: 3,
+          position: "relative",
 
-        [breakpoints.up("xl")]: {
-          marginLeft: miniSidenav ? pxToRem(120) : pxToRem(274),
-          transition: transitions.create(["margin-left", "margin-right"], {
-            easing: transitions.easing.easeInOut,
-            duration: transitions.duration.standard,
-          }),
-        },
-      })}
-    >
-      {children}
+          [breakpoints.up("xl")]: {
+            marginLeft: miniSidenav ? pxToRem(120) : pxToRem(274),
+            transition: transitions.create(["margin-left", "margin-right"], {
+              easing: transitions.easing.easeInOut,
+              duration: transitions.duration.standard,
+            }),
+          },
+        })}
+      >
+        {children}
+      </MDBox>
+      <Box
+        component="footer"
+        sx={{
+          position: "fixed",
+          bottom: 0,
+          width: "70%",
+          backgroundColor: "white",
+          color: "white",
+          textAlign: "right",
+          py: 2,
+          ml: 50,
+        }}
+      >
+        <Footer />
+        {/* <Typography variant="body2">© 2024 Your Company Name. All Rights Reserved.</Typography> */}
+      </Box>
     </MDBox>
   );
 }

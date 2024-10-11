@@ -48,7 +48,7 @@ const tabs = {
 
     vertical: {
       "& .MuiTabs-indicator": {
-        width: "100%",
+        width: "10%",
       },
     },
 

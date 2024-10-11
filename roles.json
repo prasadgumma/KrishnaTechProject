@@ -1,0 +1,37 @@
+{
+  "roles": [
+    {
+      "id": "2384",
+      "roleName": "Prasad Gumma ",
+      "description": "Managing All Things Very Positively Manage",
+      "isEnabled": true,
+      "sno": "2"
+    },
+    {
+      "id": "0642",
+      "roleName": "Suresh Kumar",
+      "description": "Managing All Administrations ",
+      "isEnabled": false,
+      "sno": "3"
+    },
+    {
+      "id": "3cdf",
+      "roleName": "Prakash Elliott",
+      "description": "Good Person Hyderabad JP Morgon",
+      "isEnabled": true
+    },
+    {
+      "id": "5621",
+      "number": "",
+      "description": "Software Engineer Of Jp Murgon & Chase managing Direction",
+      "isEnabled": true,
+      "roleName": "Rangaraju"
+    },
+    {
+      "id": "ed87",
+      "roleName": "Raj Prakash",
+      "description": "Evaluating All Things",
+      "isEnabled": true
+    }
+  ]
+}

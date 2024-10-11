@@ -31,7 +31,7 @@ const contained = {
     padding: `${pxToRem(10)} ${pxToRem(24)}`,
 
     "&:hover": {
-      backgroundColor: white.main,
+      // backgroundColor: white.main,
     },
 
     "&:active, &:active:focus, &:active:hover": {
@@ -65,11 +65,9 @@ const contained = {
 
   primary: {
     backgroundColor: info.main,
-
     "&:hover": {
       backgroundColor: info.main,
     },
-
     "&:focus:not(:hover)": {
       backgroundColor: info.focus,
     },
@@ -77,11 +75,9 @@ const contained = {
 
   secondary: {
     backgroundColor: secondary.main,
-
     "&:hover": {
       backgroundColor: secondary.main,
     },
-
     "&:focus:not(:hover)": {
       backgroundColor: secondary.focus,
     },

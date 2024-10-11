@@ -37,6 +37,7 @@ import breakpoints from "assets/theme/base/breakpoints";
 // Images
 import burceMars from "assets/images/bruce-mars.jpg";
 import studentImage1 from "assets/images/studentImage1.jpg";
+import studentImageGumma from "assets/images/studentImageGumma.jpeg";
 // import backgroundImage from "assets/images/bg-profile.jpeg";
 import studentBackground from "assets/images/studentBackground.jpeg";
 function Header({ children }) {
@@ -95,7 +96,7 @@ function Header({ children }) {
       >
         <Grid container spacing={3} alignItems="center">
           <Grid item>
-            <MDAvatar src={studentImage1} alt="profile-image" size="xl" shadow="sm" />
+            <MDAvatar src={studentImageGumma} alt="profile-image" size="xl" shadow="sm" />
           </Grid>
           <Grid item>
             <MDBox height="100%" mt={0.5} lineHeight={1}>

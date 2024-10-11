@@ -199,7 +199,7 @@ function Overview() {
           </Grid>
         </MDBox>
       </Header>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }

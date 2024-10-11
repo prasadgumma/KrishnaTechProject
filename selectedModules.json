@@ -1,0 +1,124 @@
+{
+  "selectedModules": [
+    {
+      "moduleNames": [
+        "Module 3",
+        "Module 5",
+        "Module 15",
+        "Module 22",
+        "Module 29",
+        "Module 36",
+        "Module 46",
+        "Module 56",
+        "Module 66",
+        "Module 77",
+        "Module 87",
+        "Module 12",
+        "Module 13"
+      ],
+      "id": "c760"
+    },
+    {
+      "id": "9420",
+      "moduleNames": [
+        "Module 2",
+        "Module 12",
+        "Module 22",
+        "Module 33",
+        "Module 43"
+      ]
+    },
+    {
+      "id": "2112",
+      "moduleNames": [
+        "Module 21",
+        "Module 29",
+        "Module 39",
+        "Module 52",
+        "Module 63"
+      ]
+    },
+    {
+      "id": "9f7c",
+      "moduleNames": [
+        "Module 17",
+        "Module 26",
+        "Module 36",
+        "Module 46",
+        "Module 56",
+        "Module 66",
+        "Module 77",
+        "Module 87",
+        "Module 94"
+      ]
+    },
+    {
+      "id": "94ce",
+      "moduleNames": [
+        "Module 14",
+        "Module 23",
+        "Module 34",
+        "Module 47",
+        "Module 58",
+        "Module 68",
+        "Module 78"
+      ]
+    },
+    {
+      "id": "53f6",
+      "moduleNames": [
+        "Module 9",
+        "Module 15",
+        "Module 26",
+        "Module 36",
+        "Module 46",
+        "Module 57",
+        "Module 67"
+      ]
+    },
+    {
+      "moduleNames": [
+        "Module 35",
+        "Module 40",
+        "Module 46",
+        "Module 58",
+        "Module 67",
+        "Module 76"
+      ],
+      "id": "f010"
+    },
+    {
+      "moduleNames": [
+        "Module 18",
+        "Module 32",
+        "Module 47",
+        "Module 63",
+        "Module 82",
+        "Module 94",
+        "Module 98",
+        "Module 97",
+        "Module 96",
+        "Module 95",
+        "Module 100",
+        "Module 99",
+        "Module 85",
+        "Module 84",
+        "Module 83",
+        "Module 90",
+        "Module 91",
+        "Module 92",
+        "Module 93",
+        "Module 89",
+        "Module 88",
+        "Module 87",
+        "Module 86",
+        "Module 81",
+        "Module 80",
+        "Module 79",
+        "Module 78",
+        "Module 72"
+      ],
+      "id": "1753"
+    }
+  ]
+}

@@ -142,7 +142,7 @@ const AddNumber = () => {
       .post("http://localhost:5000/numbers/", numberData)
       .then((res) => {
         console.log(res);
-        navigate("/dashboard");
+        navigate("/numbers-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -173,7 +173,7 @@ const AddNumber = () => {
               <form onSubmit={handleSubmit}>
                 <Grid container spacing={20} p={3}>
                   {/* Left Side Form Fields */}
-                  <Grid item xs={12}>
+                  <Grid item xs={12} sm={8}>
                     <Box sx={{ mb: 2 }}>
                       <TextField
                         fullWidth
@@ -238,7 +238,7 @@ const AddNumber = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };

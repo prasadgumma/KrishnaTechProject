@@ -128,24 +128,19 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import {
-  Container,
   TextField,
   Typography,
   Button,
-  Paper,
   Box,
   FormControlLabel,
   Switch,
   Grid,
-  Checkbox,
-  FormGroup,
   Card,
 } from "@mui/material";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
-import Footer from "examples/Footer";
 
 const EditUser = () => {
   const [userData, setUserData] = useState({
@@ -196,7 +191,7 @@ const EditUser = () => {
       .put(`http://localhost:7000/users/${id}`, userData)
       .then((res) => {
         console.log(res);
-        navigate("/dashboard");
+        navigate("/users-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -397,7 +392,7 @@ const EditUser = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };

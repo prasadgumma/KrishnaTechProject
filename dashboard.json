@@ -11,7 +11,6 @@
           "type": "collapse",
           "name": "User Table",
           "key": "userstables",
-          
           "route": "/users-tables",
           "component": "UsersTable" 
         },
@@ -28,6 +27,34 @@
           "key": "menuTables",
           "route": "/menu-tables",
           "component": "MenuTable"
+        },
+        {
+          "type": "collapse",
+          "name": "Roles Table",
+          "route": "/roles-table",
+          "component": "RolesTable",
+          "key": "RolesTables"
+        },
+        {
+          "type": "collapse",
+          "name": "Modules Table",
+          "key": "modulesTable",
+          "route": "/modules-tables",
+          "component": "ModulesTable" 
+        },
+        {
+          "type": "collapse",
+          "name": "Members Table",
+          "key": "MembersTable",
+          "route": "/members-tables",
+          "component": "MembersTable" 
+        },
+        {
+          "type": "collapse",
+          "name": "Data Suffling",
+          "key": "dataSuffling",
+          "route": "/data-suffling",
+          "component": "DataSuffling" 
         },
         {
           "type": "collapse",
@@ -96,10 +123,22 @@
           "key": "add-number"
         },
         {
+          "name": "Add Member",
+          "route": "add/member",
+          "component": "AddMembers",
+          "key": "add-member"
+        },
+        {
           "name": "Edit Number",
           "route": "edit/number/:id",
           "component": "EditNumber",
           "key": "edit-number"
+        },
+        {
+          "name": "Edit Member",
+          "route": "edit/member/:id",
+          "component": "EditMembers",
+          "key": "edit-member"
         },
         {
           "name": "Add Menu",
@@ -120,6 +159,12 @@
             "key": "edit-menu"
           },
           {
+            "name": "Add Role",
+            "route": "add/roles",
+            "component": "AddRoles",
+            "key": "add-role"
+          },
+          {
             "type": "collapse",
             "name": "Tables",
             "route": "/tables",
@@ -131,7 +176,38 @@
             "component": "Dashboard",
             "key": "dashboard",
             "protected": true
+          },
+          {
+            "name": "EditMainRoles",
+            "route": "edit/role-main/:id",
+            "component": "EditMainRole",
+            "key": "edit-main-roles"
+          },
+          {
+            "name": "AddModules",
+            "route": "add/modules/main",
+            "component": "AddModules",
+            "key": "add-main-modules"
+          },
+          {
+            "name": "EditMainModules",
+            "route": "edit/modules-main/:id",
+            "component": "EditMainModules",
+            "key": "edit-main-modules"
+          },
+          {
+            "name": "SelectedModules Table",
+            "route": "/selected-modules-table/",
+            "component": "SelectedModulesTable",
+            "key": "selected-modules-table"
+          },
+          {
+            "name": "EditSelected Modules",
+            "route": "/edit/selected-modules/:id",
+            "component": "EditSelectModules",
+            "key": "edit-selected-modules"
           }
+         
           
       ]
       

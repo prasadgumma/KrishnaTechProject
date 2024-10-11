@@ -1,0 +1,220 @@
+{
+  "users": [
+    {
+      "id": "6f6f",
+      "userName": "Abhishek KLU",
+      "email": "abhishek.klc7@gmail.com",
+      "mobile": "9559335879",
+      "password": "abhishek@A7",
+      "confirmPassword": "abhishek@A7",
+      "status": true,
+      "modules": [
+        "TC",
+        "CONTENT MANAGER",
+        "SHORT URL",
+        "PG",
+        "MISSED CALL",
+        "DEFAULT",
+        "BETA",
+        "BITRIX",
+        "LEAD BOX",
+        "CUSTOM FIELDS",
+        "CALL CONFERENCE",
+        "SALES",
+        "EMAIL VERIFY"
+      ],
+      "description": "Wonderful Person"
+    },
+    {
+      "id": "4994",
+      "userName": "Vidya prakash",
+      "email": "rajesh@gmail.com",
+      "mobile": "8529631478",
+      "password": "vidya@P7",
+      "confirmPassword": "vidya@P7",
+      "status": true,
+      "modules": [
+        "SHORT URL",
+        "PG",
+        "MISSED CALL",
+        "CONTENT MANAGER",
+        "BITRIX",
+        "TC",
+        "LEAD BOX",
+        "CUSTOM FIELDS",
+        "SMART VIEWS",
+        "DEFAULT",
+        "BETA",
+        "SALED DASHBOARD",
+        "SALES",
+        "EMAIL VERIFY",
+        "CALL CONFERENCE"
+      ],
+      "description": "Good Management"
+    },
+    {
+      "id": "62d8",
+      "userName": "Prasad Gumma",
+      "email": "prasadGumma7@gmail.com",
+      "mobile": "9955685235",
+      "password": "kishi@G7",
+      "confirmPassword": "kishi@G7",
+      "status": true,
+      "modules": [
+        "PG",
+        "MISSED CALL",
+        "BITRIX",
+        "SMART VIEWS",
+        "SALES",
+        "EMAIL VERIFY",
+        "CALL CONFERENCE",
+        "LEAD BOX",
+        "SHORT URL"
+      ]
+    },
+    {
+      "id": "c753",
+      "userName": "Mahathi",
+      "email": "mahathi77@gmail.com",
+      "mobile": "9347381349",
+      "password": "prasad@G7",
+      "confirmPassword": "prasad@G7",
+      "status": true,
+      "modules": [
+        "BITRIX",
+        "TC",
+        "CONTENT MANAGER",
+        "MISSED CALL",
+        "PG",
+        "SHORT URL",
+        "BETA",
+        "DEFAULT",
+        "SMART VIEWS",
+        "SALED DASHBOARD",
+        "SALES",
+        "EMAIL VERIFY"
+      ]
+    },
+    {
+      "id": "5712",
+      "userName": "Gumma Prasad",
+      "email": "gummaprasad7@gmail.com",
+      "mobile": "07997514823",
+      "password": "kishi@G7",
+      "confirmPassword": "kishi@G77",
+      "status": true,
+      "modules": [
+        "DEFAULT",
+        "BETA",
+        "SHORT URL",
+        "PG",
+        "MISSED CALL"
+      ],
+      "description": "Good"
+    },
+    {
+      "id": "0ca4",
+      "userName": "Vamshi",
+      "email": "vamsi@gmail.com",
+      "mobile": "7894561235",
+      "password": "vamsi@Y7",
+      "confirmPassword": "vamsi@Y7",
+      "status": true,
+      "modules": [
+        "DEFAULT",
+        "BETA",
+        "SHORT URL",
+        "MISSED CALL",
+        "PG",
+        "CONTENT MANAGER",
+        "TC",
+        "BITRIX",
+        "LEAD BOX",
+        "CUSTOM FIELDS",
+        "SALED DASHBOARD",
+        "SMART VIEWS"
+      ],
+      "description": "gfufyuffk"
+    },
+    {
+      "id": "4765",
+      "userName": "Sathish",
+      "email": "sathish7@gmail.com",
+      "mobile": "9347381349",
+      "password": "sathish@G7",
+      "confirmPassword": "sathish@G7",
+      "status": true,
+      "modules": [
+        "SHORT URL",
+        "BETA",
+        "BITRIX",
+        "CONTENT MANAGER",
+        "SALES",
+        "SALED DASHBOARD",
+        "SMART VIEWS",
+        "CUSTOM FIELDS",
+        "LEAD BOX",
+        "PG",
+        "TC",
+        "MISSED CALL"
+      ],
+      "description": "Amazing Knowedge Hyderabad"
+    },
+    {
+      "id": "8824",
+      "userName": "Amulya",
+      "email": "amulya7@gmail.com",
+      "mobile": "7845123697",
+      "password": "ammulu@G7",
+      "confirmPassword": "ammulu@G7",
+      "status": true,
+      "modules": [
+        "TC",
+        "SALED DASHBOARD",
+        "CALL CONFERENCE"
+      ],
+      "description": "Our Sister"
+    },
+    {
+      "id": "76f4",
+      "userName": "Jothsna",
+      "email": "jothsna7@gmail.com",
+      "mobile": "8596746985",
+      "password": "jothsna@G7",
+      "confirmPassword": "jothsna@G7",
+      "status": true,
+      "modules": [
+        "PG",
+        "SHORT URL",
+        "BITRIX",
+        "SALES",
+        "SMART VIEWS",
+        "BETA",
+        "MISSED CALL",
+        "CONTENT MANAGER"
+      ],
+      "description": "Jothsna Akka Secunderabad"
+    },
+    {
+      "id": "fc2e",
+      "userName": "Kavitha",
+      "email": "kavitha@gmail.com",
+      "mobile": "49748798789789",
+      "password": "kavita@G7",
+      "confirmPassword": "kavita@G7",
+      "status": true,
+      "modules": [
+        "BETA",
+        "SHORT URL",
+        "MISSED CALL",
+        "CONTENT MANAGER",
+        "BITRIX",
+        "LEAD BOX",
+        "SALED DASHBOARD",
+        "SALES",
+        "EMAIL VERIFY"
+      ],
+      "description": "hjkhjkhk"
+    }
+  ]
+}

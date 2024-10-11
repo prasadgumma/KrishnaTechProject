@@ -2,11 +2,9 @@ import axios from "axios";
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
-  Container,
   TextField,
   Typography,
   Button,
-  Paper,
   Box,
   FormControlLabel,
   Switch,
@@ -35,7 +33,7 @@ const AddMenu = () => {
     status: "", // Status toggle
     roles: [], // Selected roles
   });
-  console.log(menuData, "MenuData");
+  // console.log(menuData, "MenuData");
 
   const navigate = useNavigate();
 
@@ -46,7 +44,7 @@ const AddMenu = () => {
       .post("http://localhost:9000/menu/", menuData)
       .then((res) => {
         setMenuData(res.data);
-        navigate("/dashboard");
+        navigate("/menu-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -355,7 +353,7 @@ const AddMenu = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };

@@ -372,7 +372,7 @@ const EditRole = () => {
     axios
       .put(`http://localhost:9000/menu/${menuId}`, menuData)
       .then((res) => {
-        navigate("/dashboard");
+        navigate("/menu-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -412,6 +412,10 @@ const EditRole = () => {
                   fullWidth
                   variant="outlined"
                   value={menuData.menuName}
+                  InputProps={{
+                    readOnly: true,
+                  }}
+                  sx={{ width: "40%" }}
                   onChange={(e) => setMenuData({ ...menuData, menuName: e.target.value })}
                   required
                 />

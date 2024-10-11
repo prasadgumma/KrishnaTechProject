@@ -50,7 +50,7 @@ const EditModules = () => {
       .put(`http://localhost:7000/users/${userId}`, userData)
       .then((res) => {
         console.log(res);
-        navigate("/dashboard");
+        navigate("/users-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -186,7 +186,7 @@ const EditModules = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };

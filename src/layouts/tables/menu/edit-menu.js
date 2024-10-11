@@ -258,7 +258,7 @@ const EditMenu = () => {
       .put(`http://localhost:9000/menu/${id}`, menuData) // Use PUT request to update existing menu
       .then((res) => {
         setMenuData(res.data);
-        navigate("/dashboard");
+        navigate("/menu-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -575,7 +575,7 @@ const EditMenu = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };

@@ -1,58 +1,43 @@
-/**
-=========================================================
-* Material Dashboard 2 React - v2.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
+// import React from "react";
 // import { useState, useEffect, useMemo } from "react";
-
-// // react-router components
+// import axios from "axios";
 // import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-
-// // @mui material components
 // import { ThemeProvider } from "@mui/material/styles";
 // import CssBaseline from "@mui/material/CssBaseline";
 // import Icon from "@mui/material/Icon";
-
-// // Material Dashboard 2 React components
 // import MDBox from "components/MDBox";
-
-// // Material Dashboard 2 React example components
 // import Sidenav from "examples/Sidenav";
 // import Configurator from "examples/Configurator";
-
-// // Material Dashboard 2 React themes
 // import theme from "assets/theme";
 // import themeRTL from "assets/theme/theme-rtl";
-
-// // Material Dashboard 2 React Dark Mode themes
 // import themeDark from "assets/theme-dark";
 // import themeDarkRTL from "assets/theme-dark/theme-rtl";
-
-// // RTL plugins
 // import rtlPlugin from "stylis-plugin-rtl";
 // import { CacheProvider } from "@emotion/react";
 // import createCache from "@emotion/cache";
-
-// // Material Dashboard 2 React routes
-// import routes from "routes";
-
-// // Material Dashboard 2 React contexts
 // import { useMaterialUIController, setMiniSidenav, setOpenConfigurator } from "context";
-
-// // Images
 // import brandWhite from "assets/images/logo-ct.png";
-// import brandDark from "assets/images/logo-ct-dark.png";
-// import IndiaProject from "layouts/profile/components/ProjectOverView/india-project";
+
+// // Add your layout imports here
+// import Dashboard from "layouts/dashboard";
+// import Billing from "layouts/billing";
+// import RTL from "layouts/rtl";
+// import Notifications from "layouts/notifications";
+// import Profile from "layouts/profile";
+// import SignIn from "layouts/authentication/sign-in";
+// import SignUp from "layouts/authentication/sign-up";
+// import AddUser from "layouts/tables/users/add-user";
+// import NumbersTable from "layouts/tables/numbers/numbers-table";
+// import AddNumber from "layouts/tables/numbers/add-number";
+// import EditUser from "layouts/tables/users/edit-user";
+// import EditNumber from "layouts/tables/numbers/edit-number";
+// import UsersTable from "layouts/tables/users/users-table";
+// import EditModules from "layouts/tables/users/edit-modules";
+// import MenuTable from "layouts/tables/menu/menu-table";
+// import AddMenu from "layouts/tables/menu/add-menu";
+// import EditRole from "layouts/tables/menu/edit-role";
+// import EditMenu from "layouts/tables/menu/edit-menu";
+// import Tables from "layouts/tables";
 
 // export default function App() {
 //   const [controller, dispatch] = useMaterialUIController();
@@ -69,6 +54,22 @@ Coded by www.creative-tim.com
 //   const [onMouseEnter, setOnMouseEnter] = useState(false);
 //   const [rtlCache, setRtlCache] = useState(null);
 //   const { pathname } = useLocation();
+
+//   // State to hold the fetched routes
+//   const [routes, setRoutes] = useState([]);
+//   // console.log(routes, "Routes");
+
+//   // Fetch routes from the backend API
+//   useEffect(() => {
+//     axios
+//       .get("http://localhost:8000/routes") // Replace with your API endpoint
+//       .then((response) => {
+//         setRoutes(response.data);
+//       })
+//       .catch((error) => {
+//         console.error("Error fetching routes:", error);
+//       });
+//   }, []);
 
 //   // Cache for the rtl
 //   useMemo(() => {
@@ -110,6 +111,16 @@ Coded by www.creative-tim.com
 //     document.scrollingElement.scrollTop = 0;
 //   }, [pathname]);
 
+//   // Check for authentication (token existence) for protecting routes
+//   const isAuthenticated = () => {
+//     const token = sessionStorage.getItem("jwtToken");
+//     // console.log(token, "Token Data:"); // Debugging line
+//     return !!token;
+//   };
+//   // const isAuthenticated = () => {
+//   //   return !!sessionStorage.getItem("jwtToken");
+//   // };
+
 //   const getRoutes = (allRoutes) =>
 //     allRoutes.map((route) => {
 //       if (route.collapse) {
@@ -117,7 +128,24 @@ Coded by www.creative-tim.com
 //       }
 
 //       if (route.route) {
-//         return <Route exact path={route.route} element={route.component} key={route.key} />;
+//         return (
+//           <Route
+//             exact
+//             path={route.route}
+//             element={
+//               route.protected ? (
+//                 isAuthenticated() ? (
+//                   React.createElement(layoutComponents[route.component]) // Dynamically create component
+//                 ) : (
+//                   <Navigate to="/authentication/sign-in" />
+//                 )
+//               ) : (
+//                 React.createElement(layoutComponents[route.component])
+//               )
+//             }
+//             key={route.key}
+//           />
+//         );
 //       }
 
 //       return null;
@@ -147,6 +175,29 @@ Coded by www.creative-tim.com
 //     </MDBox>
 //   );
 
+//   // Mapping of route component names to actual component imports
+//   const layoutComponents = {
+//     Dashboard,
+//     Billing,
+//     RTL,
+//     Notifications,
+//     Profile,
+//     SignIn,
+//     SignUp,
+//     AddUser,
+//     NumbersTable,
+//     AddNumber,
+//     EditUser,
+//     EditNumber,
+//     UsersTable,
+//     EditModules,
+//     MenuTable,
+//     AddMenu,
+//     EditRole,
+//     EditMenu,
+//     Tables,
+//   };
+
 //   return direction === "rtl" ? (
 //     <CacheProvider value={rtlCache}>
 //       <ThemeProvider theme={darkMode ? themeDarkRTL : themeRTL}>
@@ -168,7 +219,7 @@ Coded by www.creative-tim.com
 //         {layout === "vr" && <Configurator />}
 //         <Routes>
 //           {getRoutes(routes)}
-//           <Route path="*" element={<Navigate to="/dashboard" />} />
+//           <Route path="*" element={<Navigate to="/authentication/sign-in" />} />
 //         </Routes>
 //       </ThemeProvider>
 //     </CacheProvider>
@@ -197,8 +248,8 @@ Coded by www.creative-tim.com
 //     </ThemeProvider>
 //   );
 // }
-import React from "react";
-import { useState, useEffect, useMemo } from "react";
+
+import React, { useState, useEffect, useMemo } from "react";
 import axios from "axios";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { ThemeProvider } from "@mui/material/styles";
@@ -234,9 +285,42 @@ import UsersTable from "layouts/tables/users/users-table";
 import EditModules from "layouts/tables/users/edit-modules";
 import MenuTable from "layouts/tables/menu/menu-table";
 import AddMenu from "layouts/tables/menu/add-menu";
-import EditRole from "layouts/tables/menu/edit-role";
 import EditMenu from "layouts/tables/menu/edit-menu";
 import Tables from "layouts/tables";
+import RolesTable from "layouts/tables/roles/roles-table";
+import AddRoles from "layouts/tables/roles/add-role";
+import EditRole from "layouts/tables/menu/edit-role";
+import EditMainRole from "layouts/tables/roles/edit-main-role";
+import ModulesTable from "layouts/tables/modules/modules-table";
+import AddModules from "layouts/tables/modules/add-modules";
+import EditMainModules from "layouts/tables/modules/edit-modules";
+import DataSuffling from "layouts/datasuffling/data-suffling";
+import SelectedModulesTable from "layouts/tables/modules/selected-modules-table";
+import editSelectModules from "layouts/tables/modules/edit-select-modules";
+import EditSelectModules from "layouts/tables/modules/edit-select-modules";
+import MembersTable from "layouts/tables/members/members-table";
+import AddMembers from "layouts/tables/members/add-members";
+import EditMembers from "layouts/tables/members/edit-members";
+// import { EditSelectModules } from "layouts/tables/modules/edit-select-modules";
+// import { EditSelectedModules } from "layouts/tables/modules/edit-select-modules";
+
+// Set up an Axios interceptor to include sessionId in each request
+axios.interceptors.request.use(
+  (config) => {
+    // Retrieve sessionId from session storage
+    const res_id = sessionStorage.getItem("res_id");
+
+    if (res_id) {
+      // Add sessionId to the headers
+      config.headers["res_id"] = res_id;
+    }
+
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -256,12 +340,11 @@ export default function App() {
 
   // State to hold the fetched routes
   const [routes, setRoutes] = useState([]);
-  // console.log(routes, "Routes");
 
   // Fetch routes from the backend API
   useEffect(() => {
     axios
-      .get("http://localhost:8000/routes") // Replace with your API endpoint
+      .get("http://localhost:8000/routes") // The interceptor will add sessionId to this request
       .then((response) => {
         setRoutes(response.data);
       })
@@ -313,12 +396,9 @@ export default function App() {
   // Check for authentication (token existence) for protecting routes
   const isAuthenticated = () => {
     const token = sessionStorage.getItem("jwtToken");
-    // console.log(token, "Token Data:"); // Debugging line
-    return !!token;
+    const sessionId = sessionStorage.getItem("res_id");
+    return !!token && !!sessionId;
   };
-  // const isAuthenticated = () => {
-  //   return !!sessionStorage.getItem("jwtToken");
-  // };
 
   const getRoutes = (allRoutes) =>
     allRoutes.map((route) => {
@@ -386,15 +466,28 @@ export default function App() {
     AddUser,
     NumbersTable,
     AddNumber,
+    RolesTable,
+    AddRoles,
+    EditMainRole,
+    EditRole,
+    DataSuffling,
     EditUser,
     EditNumber,
     UsersTable,
     EditModules,
     MenuTable,
     AddMenu,
-    EditRole,
     EditMenu,
     Tables,
+    ModulesTable,
+    AddModules,
+    EditMainModules,
+    SelectedModulesTable,
+    EditMainModules,
+    EditSelectModules,
+    MembersTable,
+    AddMembers,
+    EditMembers,
   };
 
   return direction === "rtl" ? (

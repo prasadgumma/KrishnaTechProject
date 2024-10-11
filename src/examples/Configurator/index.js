@@ -63,6 +63,7 @@ function Configurator() {
 
   // Use the useEffect hook to change the button state for the sidenav type based on window size.
   useEffect(() => {
+    sessionStorage.getItem("sessionId");
     // A function that sets the disabled state of the buttons for the sidenav type.
     function handleDisabled() {
       return window.innerWidth > 1200 ? setDisabled(false) : setDisabled(true);

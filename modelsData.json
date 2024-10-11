@@ -1,0 +1,617 @@
+{
+  "models": [
+    {
+      "id": "4a83"
+    },
+    {
+      "id": "2d4b"
+    },
+    {
+      "id": "8cb7"
+    },
+    {
+      "id": "5cd1",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true
+        },
+        {
+          "menu": "Menu2",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true
+        },
+        {
+          "menu": "Menu3",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false
+        },
+        {
+          "menu": "Menu5",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false
+        },
+        {
+          "menu": "Menu6",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false
+        }
+      ]
+    },
+    {
+      "id": "95ea",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu2",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu3",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": false,
+          "add": true,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu5",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu6",
+          "all": false,
+          "add": false,
+          "update": true,
+          "view": true,
+          "delete": false,
+          "actions": false
+        }
+      ]
+    },
+    {
+      "id": "fb5b",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu2",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu5",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu6",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ]
+    },
+    {
+      "id": "eff1",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu2",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu5",
+          "all": false,
+          "add": true,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu6",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": true,
+          "delete": false,
+          "actions": false
+        }
+      ]
+    },
+    {
+      "id": "777d",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu2",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu3",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu5",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu6",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ]
+    },
+    {
+      "id": "cbbd",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu2",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu5",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu6",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ]
+    },
+    {
+      "id": "dc2f",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu2",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu5",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu6",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ]
+    },
+    {
+      "id": "00a6",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu2",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu5",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu6",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ]
+    },
+    {
+      "id": "ac36",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": false,
+          "add": false,
+          "update": true,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu2",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": true,
+          "update": false,
+          "view": true,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": true,
+          "delete": true,
+          "actions": false
+        },
+        {
+          "menu": "Menu5",
+          "all": false,
+          "add": false,
+          "update": true,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu6",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": true,
+          "actions": true
+        }
+      ]
+    },
+    {
+      "id": "dd84",
+      "model1": [
+        {
+          "menu": "Menu1",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu2",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        },
+        {
+          "menu": "Menu3",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        }
+      ],
+      "model2": [
+        {
+          "menu": "Menu4",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu5",
+          "all": false,
+          "add": false,
+          "update": false,
+          "view": false,
+          "delete": false,
+          "actions": false
+        },
+        {
+          "menu": "Menu6",
+          "all": true,
+          "add": true,
+          "update": true,
+          "view": true,
+          "delete": true,
+          "actions": true
+        }
+      ]
+    }
+  ]
+}

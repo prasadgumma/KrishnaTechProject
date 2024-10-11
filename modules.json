@@ -1,0 +1,46 @@
+{
+  "modulesData": [
+    {
+      "moduleName": "Prasad Gumma",
+      "description": "Development Team",
+      "isEnabled": true,
+      "id": "3870"
+    },
+    {
+      "id": "359d",
+      "moduleName": "Prakash Gumma",
+      "description": "Managing All Things",
+      "isEnabled": true
+    },
+    {
+      "moduleName": "Manoj",
+      "description": "Properator Of the managing",
+      "isEnabled": true,
+      "id": "769e"
+    },
+    {
+      "moduleName": "Naresh",
+      "description": "Managed 1123",
+      "isEnabled": false,
+      "id": "63f5"
+    },
+    {
+      "moduleName": "Deva",
+      "description": "Contemaparary",
+      "isEnabled": true,
+      "id": "daf6"
+    },
+    {
+      "moduleName": "Mahathi",
+      "description": "My sis",
+      "isEnabled": true,
+      "id": "bab3"
+    },
+    {
+      "id": "7bbc",
+      "moduleName": "Veeraiah",
+      "description": "Former Of India",
+      "isEnabled": true
+    }
+  ]
+}

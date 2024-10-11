@@ -29,15 +29,22 @@ const MenuTable = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    const sessionId = sessionStorage.getItem("sessionId");
+    // console.log(sessionId, "Menu");
     axios
       .get("http://localhost:9000/menu")
-      .then((res) => setMenuData(res.data))
+      .then((res) => {
+        sessionStorage.getItem("sessionId");
+        setMenuData(res.data);
+      })
       .catch((error) => console.log(error));
   }, []);
 
   const deleteHandle = (id) => {
     const confirm = window.confirm("Would you like to delete?");
     if (confirm) {
+      const sessionId = sessionStorage.getItem("sessionId");
+      console.log(sessionId, "menuDelete");
       axios
         .delete(`http://localhost:9000/menu/${id}`)
         .then((res) => {
@@ -73,7 +80,7 @@ const MenuTable = () => {
       <MDBox pt={4} pb={3}>
         <Grid container spacing={6}>
           <Grid item xs={12}>
-            <Card>
+            <Card sx={{ position: "relative", height: "100%" }}>
               <MDBox
                 mx={2}
                 mt={-3}
@@ -292,7 +299,7 @@ const MenuTable = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };

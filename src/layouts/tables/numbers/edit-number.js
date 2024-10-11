@@ -1,18 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import {
-  Container,
-  TextField,
-  Typography,
-  Button,
-  Paper,
-  Box,
-  Switch,
-  FormControlLabel,
-  Grid,
-  Card,
-} from "@mui/material";
+import { TextField, Button, Box, Switch, FormControlLabel, Grid, Card } from "@mui/material";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import MDBox from "components/MDBox";
@@ -24,7 +13,7 @@ const EditNumber = () => {
     sno: "",
     number: "",
     description: "",
-    isEnabled: true, // Default value for the toggle
+    isEnabled: "", // Default value for the toggle
   });
 
   const navigate = useNavigate();
@@ -46,7 +35,7 @@ const EditNumber = () => {
       .put(`http://localhost:5000/numbers/${id}`, numberData) // Use PUT request for updating
       .then((res) => {
         console.log(res);
-        navigate("/dashboard");
+        navigate("/numbers-tables");
       })
       .catch((error) => console.log(error));
   };
@@ -77,7 +66,7 @@ const EditNumber = () => {
               <form onSubmit={handleSubmit}>
                 <Grid container spacing={3} p={3}>
                   {/* Users Section */}
-                  <Grid item xs={12}>
+                  <Grid item xs={12} sm={8}>
                     <Box sx={{ mb: 2 }}>
                       <TextField
                         // fullWidth
@@ -145,7 +134,7 @@ const EditNumber = () => {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 };
