@@ -32,6 +32,7 @@ const AddRoles = () => {
 
   const [tabValue, setTabValue] = useState(0); // State to handle tab selection
   const navigate = useNavigate();
+  console.log("hi");
 
   const handleSubmit = (e) => {
     e.preventDefault();
