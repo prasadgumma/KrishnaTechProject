@@ -219,7 +219,7 @@ const SelectedModulesTable = () => {
   useEffect(() => {
     const fetchSelectedModules = async () => {
       try {
-        const response = await axios.get("http://localhost:8484/selectedModules");
+        const response = await axios.get("http://localhost:7777/selectedModules");
         setSelectedModulesData(response.data);
       } catch (error) {
         console.error("Error fetching selected modules data:", error);
@@ -242,7 +242,7 @@ const SelectedModulesTable = () => {
   const handleDeleteConfirm = async () => {
     if (moduleToDelete) {
       try {
-        await axios.delete(`http://localhost:8484/selectedModules/${moduleToDelete.id}`);
+        await axios.delete(`http://localhost:7777/selectedModules/${moduleToDelete.id}`);
         setSelectedModulesData((prevData) =>
           prevData.filter((module) => module.id !== moduleToDelete.id)
         );

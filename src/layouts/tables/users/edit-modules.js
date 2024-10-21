@@ -32,7 +32,7 @@ const EditModules = () => {
   useEffect(() => {
     if (userId) {
       axios
-        .get(`http://localhost:7000/users/${userId}`)
+        .get(`http://localhost:7777/users/${userId}`)
         .then((res) => {
           setUserData({
             ...res.data,
@@ -47,7 +47,7 @@ const EditModules = () => {
     e.preventDefault();
 
     axios
-      .put(`http://localhost:7000/users/${userId}`, userData)
+      .put(`http://localhost:7777/users/${userId}`, userData)
       .then((res) => {
         console.log(res);
         navigate("/users-tables");

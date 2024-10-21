@@ -22,7 +22,7 @@ const EditNumber = () => {
   useEffect(() => {
     // Fetch the existing data for the number
     axios
-      .get(`http://localhost:5000/numbers/${id}`)
+      .get(`http://localhost:7777/numbers/${id}`)
       .then((res) => {
         setNumberData(res.data);
       })
@@ -32,7 +32,7 @@ const EditNumber = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:5000/numbers/${id}`, numberData) // Use PUT request for updating
+      .put(`http://localhost:7777/numbers/${id}`, numberData) // Use PUT request for updating
       .then((res) => {
         console.log(res);
         navigate("/numbers-tables");

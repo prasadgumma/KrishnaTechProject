@@ -37,7 +37,7 @@ const AddRoles = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8080/roles/", rolesData)
+      .post("http://localhost:7777/roles/", rolesData)
       .then((res) => {
         console.log(res);
         navigate("/roles-table");

@@ -293,7 +293,7 @@ const UsersTable = () => {
     const sessionId = sessionStorage.getItem("sessionId");
     console.log(sessionId, "User");
     axios
-      .get("http://localhost:7000/users")
+      .get("http://localhost:7777/users")
       .then((res) => {
         sessionStorage.getItem("sessionId");
         setData(res.data); // Assuming users is the key where user data is stored
@@ -307,7 +307,7 @@ const UsersTable = () => {
       const sessionId = sessionStorage.getItem("sessionId");
       console.log(sessionId, "UserDelete");
       axios
-        .delete(`http://localhost:7000/users/${id}`)
+        .delete(`http://localhost:7777/users/${id}`)
         .then((res) => {
           const updatedData = data.filter((user) => user.id !== id);
           setData(updatedData);
@@ -358,7 +358,7 @@ const UsersTable = () => {
               </MDBox>
 
               <Grid item>
-                <Box sx={{ display: "flex", justifyContent: "space-between", m: 2 }}>
+                <Box sx={{ display: "flex", justifyContent: "space-between", mt: 2, ml: 4, mr: 4 }}>
                   <Typography variant="h5" gutterBottom textAlign={"center"}>
                     Users List
                   </Typography>

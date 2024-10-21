@@ -236,7 +236,7 @@ const EditModules = () => {
   useEffect(() => {
     // Fetch the existing module data by ID when the component mounts
     axios
-      .get(`http://localhost:8585/modulesData/${id}`) // Replace with your endpoint
+      .get(`http://localhost:7777/modulesData/${id}`) // Replace with your endpoint
       .then((response) => {
         const data = response.data;
         setModulesData({
@@ -251,7 +251,7 @@ const EditModules = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:8585/modulesData/${id}`, modulesData) // Use PUT to update existing module
+      .put(`http://localhost:7777/modulesData/${id}`, modulesData) // Use PUT to update existing module
       .then((res) => {
         console.log(res);
         navigate("/modules-tables"); // Navigate to the modules table after successful update

@@ -29,7 +29,7 @@ const EditSelectModules = () => {
   // Fetch existing module data for editing
   useEffect(() => {
     axios
-      .get(`http://localhost:8484/selectedModules/${id}`) // Fetch the current module data using the ID
+      .get(`http://localhost:7777/selectedModules/${id}`) // Fetch the current module data using the ID
       .then((response) => {
         setModulesData({
           moduleNames: response.data.moduleNames, // Assuming 'moduleNames' comes from the API
@@ -41,7 +41,7 @@ const EditSelectModules = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:8484/selectedModules/${id}`, modulesData) // Update the existing data
+      .put(`http://localhost:7777/selectedModules/${id}`, modulesData) // Update the existing data
       .then((res) => {
         console.log(res);
         navigate("/selected-modules-table/");

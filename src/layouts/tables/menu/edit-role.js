@@ -358,7 +358,7 @@ const EditRole = () => {
   useEffect(() => {
     if (menuId) {
       axios
-        .get(`http://localhost:9000/menu/${menuId}`)
+        .get(`http://localhost:7777/menu/${menuId}`)
         .then((res) => {
           setMenuData(res.data);
         })
@@ -370,7 +370,7 @@ const EditRole = () => {
     e.preventDefault();
 
     axios
-      .put(`http://localhost:9000/menu/${menuId}`, menuData)
+      .put(`http://localhost:7777/menu/${menuId}`, menuData)
       .then((res) => {
         navigate("/menu-tables");
       })

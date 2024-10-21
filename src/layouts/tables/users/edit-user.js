@@ -160,7 +160,7 @@ const EditUser = () => {
   useEffect(() => {
     // Fetch existing user data
     axios
-      .get(`http://localhost:7000/users/${id}`)
+      .get(`http://localhost:7777/users/${id}`)
       .then((res) => {
         setUserData({
           ...res.data,
@@ -188,7 +188,7 @@ const EditUser = () => {
     }
 
     axios
-      .put(`http://localhost:7000/users/${id}`, userData)
+      .put(`http://localhost:7777/users/${id}`, userData)
       .then((res) => {
         console.log(res);
         navigate("/users-tables");

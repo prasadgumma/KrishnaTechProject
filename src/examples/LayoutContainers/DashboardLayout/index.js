@@ -65,12 +65,11 @@ function DashboardLayout({ children }) {
           backgroundColor: "white",
           color: "white",
           textAlign: "right",
-          py: 2,
+          py: -1,
           ml: 50,
         }}
       >
         <Footer />
-        {/* <Typography variant="body2">© 2024 Your Company Name. All Rights Reserved.</Typography> */}
       </Box>
     </MDBox>
   );

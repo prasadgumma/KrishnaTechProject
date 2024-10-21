@@ -31,7 +31,7 @@ function Basic() {
     // Example login function
     try {
       const response = await axios
-        .post("http://localhost:8383/login", { email, password })
+        .post("http://localhost:7777/login", { email, password })
         .then((res) => res);
       const token = response.data.token;
       const res_id = response.data.id;

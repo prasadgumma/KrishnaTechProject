@@ -50,7 +50,7 @@ const AddUser = () => {
     }
 
     axios
-      .post("http://localhost:7000/users/", userData)
+      .post("http://localhost:7777/users/", userData)
       .then((res) => {
         console.log(res);
         navigate("/users-tables");

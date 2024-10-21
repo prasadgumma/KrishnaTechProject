@@ -139,7 +139,7 @@ const AddNumber = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/numbers/", numberData)
+      .post("http://localhost:7777/numbers/", numberData)
       .then((res) => {
         console.log(res);
         navigate("/numbers-tables");

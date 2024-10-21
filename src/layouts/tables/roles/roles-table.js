@@ -26,7 +26,7 @@ const RolesTable = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/roles`)
+      .get(`http://localhost:7777/roles`)
       .then((res) => {
         sessionStorage.getItem("sessionId");
         setData(res.data);
@@ -40,7 +40,7 @@ const RolesTable = () => {
       const sessionId = sessionStorage.getItem("sessionId"); // Get sessionId from sessionStorage
 
       axios
-        .delete(`http://localhost:8080/roles/${id}`)
+        .delete(`http://localhost:7777/roles/${id}`)
         .then((res) => {
           // Filter out the deleted number from the data array
           const updatedData = data.filter((role) => role.id !== id);

@@ -192,7 +192,7 @@ const NumbersTable = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/numbers")
+      .get("http://localhost:7777/numbers")
       .then((res) => {
         sessionStorage.getItem("sessionId");
         setData(res.data);
@@ -206,7 +206,7 @@ const NumbersTable = () => {
       const sessionId = sessionStorage.getItem("sessionId"); // Get sessionId from sessionStorage
 
       axios
-        .delete(`http://localhost:5000/numbers/${id}`)
+        .delete(`http://localhost:7777/numbers/${id}`)
         .then((res) => {
           // Filter out the deleted number from the data array
           const updatedData = data.filter((number) => number.id !== id);

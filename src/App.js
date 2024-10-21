@@ -344,7 +344,7 @@ export default function App() {
   // Fetch routes from the backend API
   useEffect(() => {
     axios
-      .get("http://localhost:8000/routes") // The interceptor will add sessionId to this request
+      .get("http://localhost:7777/routes") // The interceptor will add sessionId to this request
       .then((response) => {
         setRoutes(response.data);
       })
@@ -511,7 +511,7 @@ export default function App() {
         {layout === "vr" && <Configurator />}
         <Routes>
           {getRoutes(routes)}
-          <Route path="*" element={<Navigate to="/authentication/sign-in" />} />
+          <Route path="*" element={<Navigate to="/dashboard" />} />
         </Routes>
       </ThemeProvider>
     </CacheProvider>
@@ -535,7 +535,7 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        <Route path="*" element={<Navigate to="/authentication/sign-in" />} />
+        <Route path="/" element={<Navigate to="/authentication/sign-in" />} />
       </Routes>
     </ThemeProvider>
   );

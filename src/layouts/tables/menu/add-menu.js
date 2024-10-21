@@ -41,7 +41,7 @@ const AddMenu = () => {
     e.preventDefault();
 
     axios
-      .post("http://localhost:9000/menu/", menuData)
+      .post("http://localhost:7777/menu/", menuData)
       .then((res) => {
         setMenuData(res.data);
         navigate("/menu-tables");

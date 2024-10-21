@@ -32,7 +32,7 @@ const AddModules = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8585/modulesData/", modulesData)
+      .post("http://localhost:7777/modulesData/", modulesData)
       .then((res) => {
         console.log(res);
         navigate("/modules-tables");

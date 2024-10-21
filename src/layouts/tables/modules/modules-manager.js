@@ -8,7 +8,7 @@ const ModulesManager = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8585/modulesData")
+      .get("http://localhost:7777/modulesData")
       .then((res) => setModulesData(res.data))
       .catch((error) => console.error(error));
   }, []);
@@ -19,7 +19,7 @@ const ModulesManager = () => {
 
   const deleteModule = (id) => {
     axios
-      .delete(`http://localhost:8585/modulesData/${id}`)
+      .delete(`http://localhost:7777/modulesData/${id}`)
       .then(() => {
         setModulesData((prev) => prev.filter((module) => module.id !== id));
       })

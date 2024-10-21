@@ -244,7 +244,7 @@ const EditMenu = () => {
   useEffect(() => {
     // Fetch existing menu data when the component mounts
     axios
-      .get(`http://localhost:9000/menu/${id}`)
+      .get(`http://localhost:7777/menu/${id}`)
       .then((res) => {
         setMenuData(res.data);
       })
@@ -255,7 +255,7 @@ const EditMenu = () => {
     e.preventDefault();
 
     axios
-      .put(`http://localhost:9000/menu/${id}`, menuData) // Use PUT request to update existing menu
+      .put(`http://localhost:7777/menu/${id}`, menuData) // Use PUT request to update existing menu
       .then((res) => {
         setMenuData(res.data);
         navigate("/menu-tables");

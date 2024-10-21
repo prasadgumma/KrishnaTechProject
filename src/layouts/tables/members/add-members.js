@@ -26,7 +26,7 @@ const AddMembers = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:7979/members/", memberData)
+      .post("http://localhost:7777/members/", memberData)
       .then((res) => {
         console.log(res);
         navigate("/members-tables");

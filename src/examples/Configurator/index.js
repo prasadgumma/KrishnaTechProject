@@ -62,22 +62,22 @@ function Configurator() {
   const sidenavColors = ["primary", "dark", "info", "success", "warning", "error"];
 
   // Use the useEffect hook to change the button state for the sidenav type based on window size.
-  useEffect(() => {
-    sessionStorage.getItem("sessionId");
-    // A function that sets the disabled state of the buttons for the sidenav type.
-    function handleDisabled() {
-      return window.innerWidth > 1200 ? setDisabled(false) : setDisabled(true);
-    }
+  // useEffect(() => {
+  //   // sessionStorage.getItem("sessionId");
+  //   // A function that sets the disabled state of the buttons for the sidenav type.
+  //   function handleDisabled() {
+  //     return window.innerWidth > 1200 ? setDisabled(false) : setDisabled(true);
+  //   }
 
-    // The event listener that's calling the handleDisabled function when resizing the window.
-    window.addEventListener("resize", handleDisabled);
+  //   // The event listener that's calling the handleDisabled function when resizing the window.
+  //   window.addEventListener("resize", handleDisabled);
 
-    // Call the handleDisabled function to set the state with the initial value.
-    handleDisabled();
+  //   // Call the handleDisabled function to set the state with the initial value.
+  //   handleDisabled();
 
-    // Remove event listener on cleanup
-    return () => window.removeEventListener("resize", handleDisabled);
-  }, []);
+  //   // Remove event listener on cleanup
+  //   return () => window.removeEventListener("resize", handleDisabled);
+  // }, []);
 
   const handleCloseConfigurator = () => setOpenConfigurator(dispatch, false);
   const handleTransparentSidenav = () => {
@@ -300,7 +300,7 @@ function Configurator() {
           </MDButton>
         </MDBox>
         <MDBox display="flex" justifyContent="center">
-          <GitHubButton
+          {/* <GitHubButton
             href="https://github.com/creativetimofficial/material-dashboard-react"
             data-icon="octicon-star"
             data-size="large"
@@ -308,7 +308,7 @@ function Configurator() {
             aria-label="Star creativetimofficial/material-dashboard-react on GitHub"
           >
             Star
-          </GitHubButton>
+          </GitHubButton> */}
         </MDBox>
         <MDBox mt={2} textAlign="center">
           <MDBox mb={0.5}>

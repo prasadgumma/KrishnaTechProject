@@ -105,7 +105,7 @@ const MenusWithActions = () => {
     };
 
     axios
-      .post("http://localhost:8181/models", selectedCheckBoxes)
+      .post("http://localhost:7777/models", selectedCheckBoxes)
       .then((res) => setSelectedCheckBoxes(res.data))
       .catch((error) => console.log(error));
   };

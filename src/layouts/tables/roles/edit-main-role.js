@@ -18,7 +18,7 @@ const EditMainRole = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/roles/${id}`)
+      .get(`http://localhost:7777/roles/${id}`)
       .then((res) => {
         console.log(res);
         // Ensure that isEnabled is a boolean
@@ -33,7 +33,7 @@ const EditMainRole = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:8080/roles/${id}`, roleData)
+      .put(`http://localhost:7777/roles/${id}`, roleData)
       .then((res) => {
         console.log(res);
         navigate("/roles-table");

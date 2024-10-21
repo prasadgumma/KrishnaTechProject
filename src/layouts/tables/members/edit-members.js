@@ -27,7 +27,7 @@ const EditMember = () => {
   useEffect(() => {
     // Fetch existing member data
     axios
-      .get(`http://localhost:7979/members/${id}`)
+      .get(`http://localhost:7777/members/${id}`)
       .then((res) => {
         setMemberData(res.data);
       })
@@ -37,7 +37,7 @@ const EditMember = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .put(`http://localhost:7979/members/${id}`, memberData) // Update the member
+      .put(`http://localhost:7777/members/${id}`, memberData) // Update the member
       .then((res) => {
         console.log(res);
         navigate("/members-tables");

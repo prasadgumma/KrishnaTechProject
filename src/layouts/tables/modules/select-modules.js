@@ -22,7 +22,7 @@ const SelectModules = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:8484/selectedModules/", modulesData)
+      .post("http://localhost:7777/selectedModules/", modulesData)
       .then((res) => {
         console.log(res);
         navigate("/modules-tables");

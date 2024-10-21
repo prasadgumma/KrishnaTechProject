@@ -32,7 +32,7 @@ const MenuTable = () => {
     const sessionId = sessionStorage.getItem("sessionId");
     // console.log(sessionId, "Menu");
     axios
-      .get("http://localhost:9000/menu")
+      .get("http://localhost:7777/menu")
       .then((res) => {
         sessionStorage.getItem("sessionId");
         setMenuData(res.data);
@@ -46,7 +46,7 @@ const MenuTable = () => {
       const sessionId = sessionStorage.getItem("sessionId");
       console.log(sessionId, "menuDelete");
       axios
-        .delete(`http://localhost:9000/menu/${id}`)
+        .delete(`http://localhost:7777/menu/${id}`)
         .then((res) => {
           const updatedData = menuData.filter((menu) => menu.id !== id);
           setData(updatedData);
